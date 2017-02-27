@@ -1,0 +1,41 @@
+<html><!--
+Comentário inicial
+
+Autor 1: Diana Duarte (41940)
+Autor 2: Pedro Trindade (41661)
+
+
+O trabalho preenche todos os requisitos, sendo que tem algumas peculiaridades:
+
+1. O algoritmo utilizado para a movimentação dos caranguejos não é o de Dijkstra, mas sim um de pesquisa em largura, que desenvolvemos.
+2. Implementamos um botão para activar/desactivar o audio dos jogo, mas resolvemos por em comentário pois deu problemas ao testar na máquina virtual, contudo funciona no browser.
+
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>Linguagens e Ambientes de Programação (2013/2014) [Eng.Inf. - DI/FCT/UNL] - 3º projeto prático (Javascript)</title>
+
+<script type="text/javascript" src="./DancingDog.js">
+</script>
+
+</head>
+
+<body onload="onLoad()" style="zoom: 1;">
+<p><b>O cão dançarino</b> -- Diana Duarte (41940), Pedro Trindade (41661)
+</p><form name="form1">
+	<canvas id="canvas1" width="992" height="576" style="border:1px solid #000000;">
+        Your browser doesn't support the HTML5 CANVAS tag.
+    </canvas> <br>
+	<input type="button" name="Restart" value="Restart" size="10" onclick="restart()">
+	<input type="button" name="Stats" value="Stats" size="10" onclick="stats()">
+	<input type="button" name="Play" value="Resume Game"  size=10 OnClick="play()">
+	<input type="button" name="Pause" value="Pause Game"  size=10 OnClick="pause()">
+	<input type="button" name="Reset" value="Reset Stats"  size=10 OnClick="resetStats()">
+	<input type="button" name="Play/Stop Music" value="Music"  size=10 OnClick="playAudio()">
+	 
+</form>
+
+</body>
+
+<!-- código inicial de AMD/2014 -->
+<!-- vim:set ts=4 sw=4 et: -->
+</html>
